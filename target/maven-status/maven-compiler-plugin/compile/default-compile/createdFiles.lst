@@ -1,2 +1,2 @@
-com\parcialarep\trigcalculator\HttpServer.class
-com\parcialarep\trigcalculator\TrigCalculator.class
+com\parcialarep\trigcalculator\model\TrigCalculator.class
+com\parcialarep\trigcalculator\service\HttpServer.class
