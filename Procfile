@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* com.parcialarep.trigcalculator.service.HttpServer
+web: java -cp /target/classes com.parcialarep.trigcalculator.service.HttpServer
