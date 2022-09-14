@@ -8,6 +8,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <exec.mainClass>com.parcialarep.trigcalculator.TrigCalculator</exec.mainClass>
+        <exec.mainClass>com.parcialarep.trigcalculator.model.TrigCalculator</exec.mainClass>
     </properties>
 </project>

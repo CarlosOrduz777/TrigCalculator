@@ -1,4 +1,4 @@
-package com.parcialarep.trigcalculator;
+package com.parcialarep.trigcalculator.model;
 
 import java.util.logging.Logger;
 

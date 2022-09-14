@@ -1,4 +1,6 @@
-package com.parcialarep.trigcalculator;
+package com.parcialarep.trigcalculator.service;
+
+import com.parcialarep.trigcalculator.model.TrigCalculator;
 
 import java.net.*;
 import java.io.*;
