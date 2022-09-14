@@ -41,7 +41,7 @@ public class HttpServer {
                     if (path.startsWith("/cos")) {
                         String num = path.split("=")[1];
                         double val = Double.parseDouble(num);
-                        body = "{"+"Coseno"+":"+ TrigCalculator.getCos(val) +"}";
+                        body = "{"+"\"Coseno\""+":"+ TrigCalculator.getCos(val) +"}";
                     } else if (path.startsWith("/sen")) {
                         String num = path.split("=")[1];
                         double val = Double.parseDouble(num);
