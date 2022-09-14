@@ -41,15 +41,15 @@ public class HttpServer {
                     if (path.startsWith("/cos")) {
                         String num = path.split("=")[1];
                         double val = Double.parseDouble(num);
-                        body = String.valueOf(TrigCalculator.getCos(val));
+                        body = "{"+"Coseno"+":"+ TrigCalculator.getCos(val) +"}";
                     } else if (path.startsWith("/sen")) {
                         String num = path.split("=")[1];
                         double val = Double.parseDouble(num);
-                        body = String.valueOf(TrigCalculator.getSen(val));
+                        body = "{"+"Seno"+":"+ TrigCalculator.getSen(val) +"}";
                     } else if (path.startsWith("/tan")) {
                         String num = path.split("=")[1];
                         double val = Double.parseDouble(num);
-                        body = String.valueOf(TrigCalculator.getTan(val));
+                        body = "{"+"Tangente"+":"+ TrigCalculator.getTan(val) +"}";
                     } else if (path.startsWith("qck")) {
                         body = HttpServer.inConstruction();
                         contentType = "text/html";
